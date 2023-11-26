@@ -5,3 +5,11 @@ const skills = [
   {id: 1011, skill: 'Node.js', level: 2},
   {id: 1213, skill: 'Express', level: 2},
 ]
+
+module.exports = {
+  getAll
+};
+
+function getAll() {
+  return skills;
+}
